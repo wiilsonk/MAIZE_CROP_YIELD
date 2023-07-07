@@ -1,7 +1,8 @@
 import streamlit as st
 from sys import path
 
-path.append("./")
+path.append("./CropYieldModel.py")
+path.append("./utils.py")
 
 from CropYieldModel import CropYieldModel
 from utils import predict_yield 

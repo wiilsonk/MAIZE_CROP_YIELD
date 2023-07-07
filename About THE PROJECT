@@ -1,0 +1,8 @@
+import streamlit as st
+
+def add_image():
+  image_file = "my_image.jpg"
+  st.image(image_file, caption="Maximise crop Yield with AI")
+
+if __name__ == "__main__":
+  add_image()
